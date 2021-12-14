@@ -22,7 +22,6 @@ header a , header i{
     font-weight: 500;
 }
 input{
-    color: aqua;
     background-color: #24292f;
 }
 .logo{
@@ -40,3 +39,21 @@ div i{
     cursor: pointer;
     margin-right: 1.2rem;
 }
+.fa-circle , .fa-plus{
+    position: relative;
+}
+.fa-circle::after , .fa-plus::after{
+    content: "";
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #ffffff;
+    position: absolute;
+    top: 6px;
+    right: -14px;
+}
+nav a:hover , div i:hover , a i:hover{
+    color: rgb(206, 202, 202);
+}
+/* @media screen {
+    
+} */
