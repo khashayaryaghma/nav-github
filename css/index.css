@@ -7,8 +7,8 @@
 header{
     color: #ffffff;
     background-color: #24292f;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.48rem;
+    padding-bottom: 0.48rem;
     padding-left: 1.2rem;
     padding-right: 1.2rem;
     display: flex;
@@ -21,9 +21,6 @@ header a , header i{
     text-decoration: none;
     font-weight: 500;
 }
-input{
-    background-color: #24292f;
-}
 .logo{
     font-size: 2.2rem;
 }
@@ -32,7 +29,7 @@ nav{
     align-items: center;
     font-size: 14px;
 }
-nav a , nav input{
+nav a , .search{
     margin-left: 1rem;
 }
 div i{
@@ -54,6 +51,28 @@ div i{
 nav a:hover , div i:hover , a i:hover{
     color: rgb(206, 202, 202);
 }
-/* @media screen {
-    
-} */
+.search{
+    width: 16.65rem;
+    background-color: #24292f;
+    border: rgb(105, 104, 104) solid 0.25px;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+.search::placeholder{
+    color: rgb(206, 202, 202);;
+}
+.search::after{
+    content: "/";
+    background-color: transparent;
+    color: rgb(105, 104, 104);
+    border: rgb(105, 104, 104) solid 0.25px;
+    position: absolute;
+}
+@media (max-width: 810px){
+    nav a:not(.logo) , div i:not(.fa-bell) , .search{
+        display: none;
+    }
+}
