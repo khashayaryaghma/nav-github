@@ -15,12 +15,12 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.fa-bars{
+.bar{
     font-size: 1.5rem;
     color: #ffffff;
     display: none;
 }
-header a , header i{
+header a {
     color: #ffffff;
     text-decoration: none;
     font-weight: 500;
@@ -52,7 +52,7 @@ div i{
     top: 6px;
     right: -14px;
 }
-nav a:hover , div i:hover , a i:hover{
+nav a:hover , div i:hover{
     color: rgb(206, 202, 202);
 }
 .search{
@@ -63,20 +63,23 @@ nav a:hover , div i:hover , a i:hover{
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    position: relative;
+    /* position: relative; */
 }
 .search::placeholder{
     color: rgb(206, 202, 202);;
 }
-.search::after{
+/* .search::after{
     content: "/";
     background-color: transparent;
     color: rgb(105, 104, 104);
     border: rgb(105, 104, 104) solid 0.25px;
     position: absolute;
-}
+} */
 @media (max-width: 810px){
     nav a:not(.logo) , div i:not(.fa-bell) , .search{
         display: none;
+    }
+    .bar{
+        display: inline;
     }
 }
