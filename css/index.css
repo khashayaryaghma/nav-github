@@ -14,7 +14,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+}
+.fa-bars{
+    font-size: 1.5rem;
+    color: #ffffff;
+    display: none;
 }
 header a , header i{
     color: #ffffff;
