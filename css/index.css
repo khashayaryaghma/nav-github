@@ -58,7 +58,7 @@ nav a:hover , div i:hover{
 .search{
     width: 16.65rem;
     background-color: #24292f;
-    border: rgb(105, 104, 104) solid 0.25px;
+    border: rgb(95, 95, 95) solid 0.25px;
     border-radius: 6px;
     padding-left: 10px;
     padding-top: 5px;
@@ -72,8 +72,8 @@ nav a:hover , div i:hover{
     background-color: transparent;
     padding-right:0.35rem;
     padding-left: 0.35rem;
-    color: rgb(168, 166, 166);
-    border: rgb(105, 104, 104) solid 0.25px;
+    color: rgb(156, 151, 151);
+    border: rgb(94, 92, 92) solid 0.25px;
     border-radius: 4px;
     position: absolute;
     left: 20.5rem;
