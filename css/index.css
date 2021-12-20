@@ -63,20 +63,24 @@ nav a:hover , div i:hover{
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    /* position: relative; */
 }
 .search::placeholder{
     color: rgb(206, 202, 202);;
 }
-/* .search::after{
+.se::after{
     content: "/";
     background-color: transparent;
-    color: rgb(105, 104, 104);
+    padding-right:0.35rem;
+    padding-left: 0.35rem;
+    color: rgb(168, 166, 166);
     border: rgb(105, 104, 104) solid 0.25px;
+    border-radius: 4px;
     position: absolute;
-} */
+    left: 20.5rem;
+    top: 1.3rem;
+}
 @media (max-width: 810px){
-    nav a:not(.logo) , div i:not(.fa-bell) , .search{
+    nav a:not(.logo) , div i:not(.fa-bell) , .se{
         display: none;
     }
     .bar{
